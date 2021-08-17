@@ -1,0 +1,168 @@
+@media (min-width: 1050px) {
+  a {
+    text-decoration: none;
+  }
+  .fondo {
+    background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+  }
+
+  #cabecera {
+    border-radius: 3px;
+    background-color: slategray;
+    padding: 2em 0em;
+  }
+  #profesion {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  #Grisham {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: xxx-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .bordeMain {
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+    background-color: transparent;
+  }
+  .bordeMain p {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0.5em 15em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  #img_divisoria {
+    margin-top: 1em;
+    height: 55vh;
+    width: 100vw;
+    background-image: url("../imagenes/grisham.jpg");
+    background-repeat: repeat-x;
+  }
+  #padreImagen {
+    display: flex;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: xx-large;
+    padding: 15px 50px 35px 100px;
+    margin-top: 0px;
+    margin-bottom: -16px;
+  }
+  #info_tributo {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: justify;
+    padding: 5em 15em;
+  }
+  #citas {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    padding: 1em 15em;
+    margin-top: -3.3em;
+  }
+  p {
+    font-size: large;
+  }
+  i{
+      font-size: large;
+  }
+  #pieDePagina {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    background-color: slategray;
+    padding-bottom: 1em;
+  }
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1050px) {
+  a {
+    text-decoration: none;
+  }
+  .fondo {
+    background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+    font-size: small;
+  }
+
+  #profesion {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: medium;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  #Grisham {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: medium;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .bordeMain {
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+  }
+  p {
+      font-size: medium;
+    text-align: center;
+    margin-top: 15px;
+    padding: 2px 50px 35px 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  #img_divisoria {
+    margin-top: 1em;
+    height: 55vh;
+    width: 100vw;
+    background-image: url("../imagenes/grisham.jpg");
+    background-repeat: repeat-x;
+  }
+  #padreImagen {
+    display: flex;
+    margin-bottom: -8em;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: medium;
+    padding: 15px 50px 35px 50px;
+    margin-top: 0px;
+    margin-bottom: -16px;
+  }
+  #info_tributo {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: justify;
+    padding: 20px 50px 30px 50px;
+    font-size: medium;
+  }
+  #citas {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin-top: -52px;
+  }
+  #pieDePagina {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+      margin-top: 2em;
+  }
+}
